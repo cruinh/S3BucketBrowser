@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0103572-4021-490a-960e-24b6c6d60e49" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
     </list>
     <ignored path="S3BucketBrowser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,28 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ObjectAttributeViewController.m" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/S3BucketBrowser/ObjectAttributeViewController.m">
+      <file leaf-file-name="AFAmazonS3Manager.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AFAmazonS3Client/AFAmazonS3Client/AFAmazonS3Manager.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="237" column="1" selection-start="8168" selection-end="8168" vertical-scroll-proportion="0.045353983" vertical-offset="3424" max-vertical-offset="4665">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BucketViewController.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/S3BucketBrowser/BucketViewController.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="156" column="51" selection-start="6144" selection-end="6144" vertical-scroll-proportion="0.0" vertical-offset="1748" max-vertical-offset="3105">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AFAmazonS3Manager.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AFAmazonS3Client/AFAmazonS3Client/AFAmazonS3Manager.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="0" selection-start="3026" selection-end="3026" vertical-scroll-proportion="0.0" vertical-offset="1043" max-vertical-offset="4080">
+            <state line="131" column="26" selection-start="7531" selection-end="7549" vertical-scroll-proportion="0.0" vertical-offset="1965" max-vertical-offset="3405">
               <folding />
             </state>
           </provider>
@@ -61,10 +43,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AFAmazonS3Manager.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AFAmazonS3Client/AFAmazonS3Client/AFAmazonS3Manager.h">
+      <file leaf-file-name="AFAmazonS3Manager.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AFAmazonS3Client/AFAmazonS3Client/AFAmazonS3Manager.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="26" selection-start="7531" selection-end="7549" vertical-scroll-proportion="0.0" vertical-offset="1965" max-vertical-offset="3405">
+            <state line="81" column="0" selection-start="3026" selection-end="3026" vertical-scroll-proportion="0.0" vertical-offset="1043" max-vertical-offset="4080">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BucketViewController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/S3BucketBrowser/BucketViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="156" column="51" selection-start="6144" selection-end="6144" vertical-scroll-proportion="0.0" vertical-offset="1748" max-vertical-offset="3105">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObjectAttributeViewController.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/S3BucketBrowser/ObjectAttributeViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="237" column="1" selection-start="8168" selection-end="8168" vertical-scroll-proportion="0.0" vertical-offset="3555" max-vertical-offset="4755">
               <folding />
             </state>
           </provider>
@@ -138,7 +138,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -173,18 +172,19 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Cidr.FilesView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="S3BucketBrowser" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Application.S3BucketBrowser">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="S3BucketBrowser" TARGET_NAME="S3BucketBrowser" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="S3BucketBrowser" RUN_TARGET_NAME="S3BucketBrowser" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
@@ -281,12 +281,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24984913" sideWeight="0.6" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24984913" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24984913" sideWeight="0.67060083" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -296,7 +297,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33010754" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -405,7 +405,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/S3BucketBrowser/ObjectAttributeViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="237" column="1" selection-start="8168" selection-end="8168" vertical-scroll-proportion="0.045353983" vertical-offset="3424" max-vertical-offset="4665">
+        <state line="237" column="1" selection-start="8168" selection-end="8168" vertical-scroll-proportion="0.0" vertical-offset="3555" max-vertical-offset="4755">
           <folding />
         </state>
       </provider>

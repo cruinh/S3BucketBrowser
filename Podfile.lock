@@ -20,51 +20,6 @@ PODS:
   - AFNetworking/UIKit (2.2.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - AWSiOSSDK (1.7.1):
-    - AWSiOSSDK/AutoScaling
-    - AWSiOSSDK/CloudWatch
-    - AWSiOSSDK/DynamoDB
-    - AWSiOSSDK/EC2
-    - AWSiOSSDK/ElasticLoadBalancing
-    - AWSiOSSDK/Runtime
-    - AWSiOSSDK/S3
-    - AWSiOSSDK/SES
-    - AWSiOSSDK/SimpleDB
-    - AWSiOSSDK/SNS
-    - AWSiOSSDK/SQS
-    - AWSiOSSDK/STS
-  - AWSiOSSDK/AutoScaling (1.7.1):
-    - AWSiOSSDK/DynamoDB
-    - AWSiOSSDK/Runtime
-  - AWSiOSSDK/CloudWatch (1.7.1):
-    - AWSiOSSDK/DynamoDB
-    - AWSiOSSDK/Runtime
-  - AWSiOSSDK/DynamoDB (1.7.1):
-    - AWSiOSSDK/Runtime
-  - AWSiOSSDK/EC2 (1.7.1):
-    - AWSiOSSDK/DynamoDB
-    - AWSiOSSDK/Runtime
-  - AWSiOSSDK/ElasticLoadBalancing (1.7.1):
-    - AWSiOSSDK/DynamoDB
-    - AWSiOSSDK/Runtime
-  - AWSiOSSDK/Runtime (1.7.1)
-  - AWSiOSSDK/S3 (1.7.1):
-    - AWSiOSSDK/Runtime
-  - AWSiOSSDK/SES (1.7.1):
-    - AWSiOSSDK/DynamoDB
-    - AWSiOSSDK/Runtime
-  - AWSiOSSDK/SimpleDB (1.7.1):
-    - AWSiOSSDK/DynamoDB
-    - AWSiOSSDK/Runtime
-  - AWSiOSSDK/SNS (1.7.1):
-    - AWSiOSSDK/DynamoDB
-    - AWSiOSSDK/Runtime
-  - AWSiOSSDK/SQS (1.7.1):
-    - AWSiOSSDK/DynamoDB
-    - AWSiOSSDK/Runtime
-  - AWSiOSSDK/STS (1.7.1):
-    - AWSiOSSDK/DynamoDB
-    - AWSiOSSDK/Runtime
   - MagicalRecord (2.2):
     - MagicalRecord/Core
   - MagicalRecord/Core (2.2)
@@ -81,19 +36,17 @@ PODS:
 DEPENDENCIES:
   - AFNetworkActivityLogger (= 2.0.2)
   - AFNetworking (= 2.2.3)
-  - AWSiOSSDK (= 1.7.1)
   - MagicalRecord (= 2.2)
   - MBProgressHUD (= 0.8)
   - Ono (= 0.0.3)
   - ReactiveCocoa (= 2.3)
 
 SPEC CHECKSUMS:
-  AFNetworkActivityLogger: 3d12891eb7cb77b4ad0f0b50fe5d877385bd135d
-  AFNetworking: ae513199cca79e9d7af2708ccabe2ed075550c42
-  AWSiOSSDK: dcf83bfeea698f5c750bb1814a5081d46ffa512f
-  MagicalRecord: 95d49d74ef752cd52f6ad87bcb474817fc3978cf
-  MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
-  Ono: 75de324589764356dac3b140c1b0d8f52c7cab64
-  ReactiveCocoa: dde7b11a14954edf789e7343b2c32e595caabd01
+  AFNetworkActivityLogger: 45ca411593444cbdc401b12924b4c17082ad512a
+  AFNetworking: 47947303319594706f48a55185ea95a95159ab94
+  MagicalRecord: 2b471584fc9e3137f3d0a56967917baa4979e224
+  MBProgressHUD: c356980b0cd097f19acec959b49dca5eb8ec31be
+  Ono: 14cb9f8afd59f7e0d88fef94c4056dabc854732b
+  ReactiveCocoa: 2066583826c17dde8e90c41e489f682048cc57c9
 
 COCOAPODS: 0.32.1

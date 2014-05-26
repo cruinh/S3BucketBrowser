@@ -8,7 +8,6 @@ target "S3BucketBrowser" do
   pod 'MagicalRecord', '2.2'
   pod 'MBProgressHUD', '0.8'
   pod 'ReactiveCocoa', '2.3'
-  pod 'AWSiOSSDK', '1.7.1'
   pod 'Ono', '0.0.3'
 end
 
