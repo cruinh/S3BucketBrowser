@@ -1,0 +1,99 @@
+PODS:
+  - AFNetworkActivityLogger (2.0.2):
+    - AFNetworking/NSURLSession (~> 2.0)
+  - AFNetworking (2.2.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.2.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.2.3):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.2.3)
+  - AFNetworking/Security (2.2.3)
+  - AFNetworking/Serialization (2.2.3)
+  - AFNetworking/UIKit (2.2.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AWSiOSSDK (1.7.1):
+    - AWSiOSSDK/AutoScaling
+    - AWSiOSSDK/CloudWatch
+    - AWSiOSSDK/DynamoDB
+    - AWSiOSSDK/EC2
+    - AWSiOSSDK/ElasticLoadBalancing
+    - AWSiOSSDK/Runtime
+    - AWSiOSSDK/S3
+    - AWSiOSSDK/SES
+    - AWSiOSSDK/SimpleDB
+    - AWSiOSSDK/SNS
+    - AWSiOSSDK/SQS
+    - AWSiOSSDK/STS
+  - AWSiOSSDK/AutoScaling (1.7.1):
+    - AWSiOSSDK/DynamoDB
+    - AWSiOSSDK/Runtime
+  - AWSiOSSDK/CloudWatch (1.7.1):
+    - AWSiOSSDK/DynamoDB
+    - AWSiOSSDK/Runtime
+  - AWSiOSSDK/DynamoDB (1.7.1):
+    - AWSiOSSDK/Runtime
+  - AWSiOSSDK/EC2 (1.7.1):
+    - AWSiOSSDK/DynamoDB
+    - AWSiOSSDK/Runtime
+  - AWSiOSSDK/ElasticLoadBalancing (1.7.1):
+    - AWSiOSSDK/DynamoDB
+    - AWSiOSSDK/Runtime
+  - AWSiOSSDK/Runtime (1.7.1)
+  - AWSiOSSDK/S3 (1.7.1):
+    - AWSiOSSDK/Runtime
+  - AWSiOSSDK/SES (1.7.1):
+    - AWSiOSSDK/DynamoDB
+    - AWSiOSSDK/Runtime
+  - AWSiOSSDK/SimpleDB (1.7.1):
+    - AWSiOSSDK/DynamoDB
+    - AWSiOSSDK/Runtime
+  - AWSiOSSDK/SNS (1.7.1):
+    - AWSiOSSDK/DynamoDB
+    - AWSiOSSDK/Runtime
+  - AWSiOSSDK/SQS (1.7.1):
+    - AWSiOSSDK/DynamoDB
+    - AWSiOSSDK/Runtime
+  - AWSiOSSDK/STS (1.7.1):
+    - AWSiOSSDK/DynamoDB
+    - AWSiOSSDK/Runtime
+  - MagicalRecord (2.2):
+    - MagicalRecord/Core
+  - MagicalRecord/Core (2.2)
+  - MBProgressHUD (0.8)
+  - Ono (0.0.3)
+  - ReactiveCocoa (2.3):
+    - ReactiveCocoa/UI
+  - ReactiveCocoa/Core (2.3):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.3)
+  - ReactiveCocoa/UI (2.3):
+    - ReactiveCocoa/Core
+
+DEPENDENCIES:
+  - AFNetworkActivityLogger (= 2.0.2)
+  - AFNetworking (= 2.2.3)
+  - AWSiOSSDK (= 1.7.1)
+  - MagicalRecord (= 2.2)
+  - MBProgressHUD (= 0.8)
+  - Ono (= 0.0.3)
+  - ReactiveCocoa (= 2.3)
+
+SPEC CHECKSUMS:
+  AFNetworkActivityLogger: 3d12891eb7cb77b4ad0f0b50fe5d877385bd135d
+  AFNetworking: ae513199cca79e9d7af2708ccabe2ed075550c42
+  AWSiOSSDK: dcf83bfeea698f5c750bb1814a5081d46ffa512f
+  MagicalRecord: 95d49d74ef752cd52f6ad87bcb474817fc3978cf
+  MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
+  Ono: 75de324589764356dac3b140c1b0d8f52c7cab64
+  ReactiveCocoa: dde7b11a14954edf789e7343b2c32e595caabd01
+
+COCOAPODS: 0.32.1

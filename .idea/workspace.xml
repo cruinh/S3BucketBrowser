@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f0103572-4021-490a-960e-24b6c6d60e49" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="S3BucketBrowser.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_iPhone_Retina__4_inch_64_bit__7.1" />
+  <component name="FavoritesManager">
+    <favorites_list name="S3BucketBrowser" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ObjectAttributeViewController.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/S3BucketBrowser/ObjectAttributeViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="237" column="1" selection-start="8168" selection-end="8168" vertical-scroll-proportion="0.045353983" vertical-offset="3424" max-vertical-offset="4665">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BucketViewController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/S3BucketBrowser/BucketViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="156" column="51" selection-start="6144" selection-end="6144" vertical-scroll-proportion="0.0" vertical-offset="1748" max-vertical-offset="3105">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AFAmazonS3Manager.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AFAmazonS3Client/AFAmazonS3Client/AFAmazonS3Manager.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="81" column="0" selection-start="3026" selection-end="3026" vertical-scroll-proportion="0.0" vertical-offset="1043" max-vertical-offset="4080">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="S3ContentTypes.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/S3BucketBrowser/S3ContentTypes.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="27" selection-start="261" selection-end="278" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AFAmazonS3Manager.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AFAmazonS3Client/AFAmazonS3Client/AFAmazonS3Manager.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="131" column="26" selection-start="7531" selection-end="7549" vertical-scroll-proportion="0.0" vertical-offset="1965" max-vertical-offset="3405">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/S3BucketBrowser/BucketConfigurationViewController.h" />
+        <option value="$PROJECT_DIR$/S3BucketBrowser/BucketConfigurationViewController.m" />
+        <option value="$PROJECT_DIR$/S3BucketBrowser/BucketObjectTableViewCell.h" />
+        <option value="$PROJECT_DIR$/S3BucketBrowser/BucketObjectTableViewCell.m" />
+        <option value="$PROJECT_DIR$/S3BucketBrowser/BucketObjectTableViewController.h" />
+        <option value="$PROJECT_DIR$/S3BucketBrowser/Bucket.h" />
+        <option value="$PROJECT_DIR$/S3BucketBrowser/AppDelegate.m" />
+        <option value="$PROJECT_DIR$/S3BucketBrowser/SortsViewController.h" />
+        <option value="$PROJECT_DIR$/S3BucketBrowser/SortsViewController.m" />
+        <option value="$PROJECT_DIR$/S3BucketBrowser/BucketViewController.m" />
+        <option value="$PROJECT_DIR$/S3BucketBrowser/BucketObjectTableViewController.m" />
+        <option value="$PROJECT_DIR$/S3BucketBrowser/S3ContentTypes.m" />
+        <option value="$PROJECT_DIR$/S3BucketBrowser/S3ContentTypes.h" />
+        <option value="$PROJECT_DIR$/S3BucketBrowser/S3Manager.m" />
+        <option value="$PROJECT_DIR$/S3BucketBrowser/ObjectAttributeViewController.h" />
+        <option value="$PROJECT_DIR$/S3BucketBrowser/ObjectAttributeViewController.m" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1680" />
+    <option name="height" value="1024" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Cidr.FilesView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="S3BucketBrowser" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="S3BucketBrowser" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="S3BucketBrowser" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="S3BucketBrowser" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.S3BucketBrowser">
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="S3BucketBrowser" TARGET_NAME="S3BucketBrowser" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="S3BucketBrowser" RUN_TARGET_NAME="S3BucketBrowser" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" PROJECT_NAME="S3BucketBrowser" TARGET_NAME="S3BucketBrowserTests" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="OCGoogleTestRunConfigurationType" factoryName="Google Test" PROJECT_NAME="S3BucketBrowser" TARGET_NAME="S3BucketBrowser" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-S3BucketBrowser" type="AppleRunConfiguration" factoryName="Application" folderName="Pods" SCHEME_NAME="Pods-S3BucketBrowser" PROJECT_NAME="Pods" TARGET_NAME="Pods-S3BucketBrowser" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <RunnerSettings RunnerId="AppRunner" />
+      <ConfigurationWrapper RunnerId="AppRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="S3BucketBrowser" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="S3BucketBrowser" PROJECT_NAME="S3BucketBrowser" TARGET_NAME="S3BucketBrowser" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="S3BucketBrowser" RUN_TARGET_NAME="S3BucketBrowser" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <RunnerSettings RunnerId="AppRunner" />
+      <RunnerSettings RunnerId="InstrumentsRunner" />
+      <ConfigurationWrapper RunnerId="AppRunner" />
+      <ConfigurationWrapper RunnerId="InstrumentsRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-S3BucketBrowser-MBProgressHUD" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-S3BucketBrowser-MBProgressHUD" PROJECT_NAME="Pods" TARGET_NAME="Pods-S3BucketBrowser-MBProgressHUD" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-S3BucketBrowser-ReactiveCocoa" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-S3BucketBrowser-ReactiveCocoa" PROJECT_NAME="Pods" TARGET_NAME="Pods-S3BucketBrowser-ReactiveCocoa" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-S3BucketBrowser-AFNetworking" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-S3BucketBrowser-AFNetworking" PROJECT_NAME="Pods" TARGET_NAME="Pods-S3BucketBrowser-AFNetworking" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-S3BucketBrowser-AWSiOSSDK" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-S3BucketBrowser-AWSiOSSDK" PROJECT_NAME="Pods" TARGET_NAME="Pods-S3BucketBrowser-AWSiOSSDK" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-S3BucketBrowser-AFNetworkActivityLogger" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-S3BucketBrowser-AFNetworkActivityLogger" PROJECT_NAME="Pods" TARGET_NAME="Pods-S3BucketBrowser-AFNetworkActivityLogger" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-S3BucketBrowser-Ono" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-S3BucketBrowser-Ono" PROJECT_NAME="Pods" TARGET_NAME="Pods-S3BucketBrowser-Ono" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-S3BucketBrowser-MagicalRecord" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-S3BucketBrowser-MagicalRecord" PROJECT_NAME="Pods" TARGET_NAME="Pods-S3BucketBrowser-MagicalRecord" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <list size="9">
+      <item index="0" class="java.lang.String" itemvalue="Application.Pods-S3BucketBrowser" />
+      <item index="1" class="java.lang.String" itemvalue="Application.S3BucketBrowser" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Pods-S3BucketBrowser-MBProgressHUD" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Pods-S3BucketBrowser-ReactiveCocoa" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Pods-S3BucketBrowser-AFNetworking" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Pods-S3BucketBrowser-AWSiOSSDK" />
+      <item index="6" class="java.lang.String" itemvalue="Application.Pods-S3BucketBrowser-AFNetworkActivityLogger" />
+      <item index="7" class="java.lang.String" itemvalue="Application.Pods-S3BucketBrowser-Ono" />
+      <item index="8" class="java.lang.String" itemvalue="Application.Pods-S3BucketBrowser-MagicalRecord" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0103572-4021-490a-960e-24b6c6d60e49" name="Default" comment="" />
+      <created>1399761598227</created>
+      <updated>1399761598227</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24984913" sideWeight="0.6" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24984913" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33010754" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="58" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/S3BucketBrowser/main.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="342" selection-end="342" vertical-scroll-proportion="0.4528302" vertical-offset="0" max-vertical-offset="530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/Headers/AFNetworking/AFURLResponseSerialization.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="16" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.5145798" vertical-offset="0" max-vertical-offset="4005" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/Headers/AFNetworking/AFHTTPRequestOperationManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="69" selection-start="6823" selection-end="6823" vertical-scroll-proportion="0.37564322" vertical-offset="1236" max-vertical-offset="4410" />
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLResponse.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="11" selection-start="4631" selection-end="4631" vertical-scroll-proportion="-0.5566038" vertical-offset="2155" max-vertical-offset="2685" />
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSSet.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="16" selection-start="1846" selection-end="1846" vertical-scroll-proportion="0.33207548" vertical-offset="604" max-vertical-offset="1830" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/S3BucketBrowser/S3ContentTypes.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="928" selection-end="955" vertical-scroll-proportion="0.8584906" vertical-offset="85" max-vertical-offset="720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/S3BucketBrowser/S3Manager.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="103" selection-start="769" selection-end="769" vertical-scroll-proportion="0.49056605" vertical-offset="40" max-vertical-offset="570" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/S3BucketBrowser/S3Manager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="276" selection-end="276" vertical-scroll-proportion="0.36792454" vertical-offset="0" max-vertical-offset="530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/S3BucketBrowser/BucketObjectTableViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="49" selection-start="3066" selection-end="3066" vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="1650">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWebView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="8" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.33207548" vertical-offset="484" max-vertical-offset="1455" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/S3BucketBrowser/ObjectAttributeViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="82" selection-start="765" selection-end="765" vertical-scroll-proportion="0.5943396" vertical-offset="0" max-vertical-offset="530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/S3BucketBrowser/S3ContentTypes.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="27" selection-start="261" selection-end="278" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AFAmazonS3Client/AFAmazonS3Client/AFAmazonS3Manager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="26" selection-start="7531" selection-end="7549" vertical-scroll-proportion="0.0" vertical-offset="1808" max-vertical-offset="3390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AFAmazonS3Client/AFAmazonS3Client/AFAmazonS3Manager.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="0" selection-start="3026" selection-end="3026" vertical-scroll-proportion="0.0" vertical-offset="1043" max-vertical-offset="4080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/S3BucketBrowser/BucketViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="51" selection-start="6144" selection-end="6144" vertical-scroll-proportion="0.0" vertical-offset="1748" max-vertical-offset="3105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/S3BucketBrowser/ObjectAttributeViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="237" column="1" selection-start="8168" selection-end="8168" vertical-scroll-proportion="0.045353983" vertical-offset="3424" max-vertical-offset="4665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

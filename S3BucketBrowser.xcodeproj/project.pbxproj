@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA3B2BDA191FE57200B9E2C7 /* BucketObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3B2BD9191FE57200B9E2C7 /* BucketObject.m */; };
+		AA3B2BDD191FE57200B9E2C7 /* Bucket.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3B2BDC191FE57200B9E2C7 /* Bucket.m */; };
+		AA3B2BE0191FF99400B9E2C7 /* SortsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3B2BDF191FF99400B9E2C7 /* SortsViewController.m */; };
+		AA3B2BE319202CE200B9E2C7 /* S3ContentTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3B2BE219202CE200B9E2C7 /* S3ContentTypes.m */; };
+		AA5A9D51191EDC54007885EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A9D50191EDC54007885EF /* Foundation.framework */; };
+		AA5A9D53191EDC54007885EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A9D52191EDC54007885EF /* CoreGraphics.framework */; };
+		AA5A9D55191EDC54007885EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A9D54191EDC54007885EF /* UIKit.framework */; };
+		AA5A9D57191EDC54007885EF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A9D56191EDC54007885EF /* CoreData.framework */; };
+		AA5A9D5D191EDC54007885EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA5A9D5B191EDC54007885EF /* InfoPlist.strings */; };
+		AA5A9D5F191EDC54007885EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A9D5E191EDC54007885EF /* main.m */; };
+		AA5A9D63191EDC54007885EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A9D62191EDC54007885EF /* AppDelegate.m */; };
+		AA5A9D66191EDC54007885EF /* S3BucketBrowser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA5A9D64191EDC54007885EF /* S3BucketBrowser.xcdatamodeld */; };
+		AA5A9D68191EDC54007885EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5A9D67191EDC54007885EF /* Images.xcassets */; };
+		AA5A9D6F191EDC55007885EF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A9D6E191EDC55007885EF /* XCTest.framework */; };
+		AA5A9D70191EDC55007885EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A9D50191EDC54007885EF /* Foundation.framework */; };
+		AA5A9D71191EDC55007885EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A9D54191EDC54007885EF /* UIKit.framework */; };
+		AA5A9D72191EDC55007885EF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A9D56191EDC54007885EF /* CoreData.framework */; };
+		AA5A9D7A191EDC55007885EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA5A9D78191EDC55007885EF /* InfoPlist.strings */; };
+		AA5A9D7C191EDC55007885EF /* S3BucketBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A9D7B191EDC55007885EF /* S3BucketBrowserTests.m */; };
+		AA5A9D86191EDD39007885EF /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5A9D85191EDD39007885EF /* Storyboard.storyboard */; };
+		AA5A9D89191EE05D007885EF /* BucketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A9D88191EE05D007885EF /* BucketViewController.m */; };
+		AA5A9D8E191EF4FA007885EF /* AFAmazonS3Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A9D8B191EF4FA007885EF /* AFAmazonS3Manager.m */; };
+		AA5A9D8F191EF4FA007885EF /* AFAmazonS3RequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A9D8D191EF4FA007885EF /* AFAmazonS3RequestSerializer.m */; };
+		AA5A9D92191F1FFB007885EF /* BucketObjectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A9D91191F1FFB007885EF /* BucketObjectTableViewController.m */; };
+		AA5A9D95191F2427007885EF /* BucketObjectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A9D94191F2427007885EF /* BucketObjectTableViewCell.m */; };
+		AA5A9D98191F2F0B007885EF /* BucketConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A9D97191F2F0B007885EF /* BucketConfigurationViewController.m */; };
+		AA5A9D9B191F3184007885EF /* S3Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A9D9A191F3184007885EF /* S3Manager.m */; };
+		AA5A9D9E191F3A56007885EF /* ObjectAttributeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A9D9D191F3A56007885EF /* ObjectAttributeViewController.m */; };
+		AA5A9DA1191F4260007885EF /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A9DA0191F4260007885EF /* HelpViewController.m */; };
+		ACD6BA2848BF44758C2D5789 /* libPods-S3BucketBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7034C24D1DF44552860F8D18 /* libPods-S3BucketBrowser.a */; };
+		AF6D0CFC89327FB0612AB280 /* AFOnoResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6D0A13056A6EB85843877D /* AFOnoResponseSerializer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA5A9D73191EDC55007885EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA5A9D45191EDC54007885EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA5A9D4C191EDC54007885EF;
+			remoteInfo = S3BucketBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68DC05C60B6A4930A5DFC7CA /* Pods-S3BucketBrowser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-S3BucketBrowser.xcconfig"; path = "Pods/Pods-S3BucketBrowser.xcconfig"; sourceTree = "<group>"; };
+		7034C24D1DF44552860F8D18 /* libPods-S3BucketBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-S3BucketBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3B2BD8191FE57200B9E2C7 /* BucketObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BucketObject.h; sourceTree = "<group>"; };
+		AA3B2BD9191FE57200B9E2C7 /* BucketObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BucketObject.m; sourceTree = "<group>"; };
+		AA3B2BDB191FE57200B9E2C7 /* Bucket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bucket.h; sourceTree = "<group>"; };
+		AA3B2BDC191FE57200B9E2C7 /* Bucket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bucket.m; sourceTree = "<group>"; };
+		AA3B2BDE191FF99400B9E2C7 /* SortsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortsViewController.h; sourceTree = "<group>"; };
+		AA3B2BDF191FF99400B9E2C7 /* SortsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortsViewController.m; sourceTree = "<group>"; };
+		AA3B2BE119202CE200B9E2C7 /* S3ContentTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S3ContentTypes.h; sourceTree = "<group>"; };
+		AA3B2BE219202CE200B9E2C7 /* S3ContentTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S3ContentTypes.m; sourceTree = "<group>"; };
+		AA5A9D4D191EDC54007885EF /* S3BucketBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = S3BucketBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5A9D50191EDC54007885EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA5A9D52191EDC54007885EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA5A9D54191EDC54007885EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA5A9D56191EDC54007885EF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AA5A9D5A191EDC54007885EF /* S3BucketBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "S3BucketBrowser-Info.plist"; sourceTree = "<group>"; };
+		AA5A9D5C191EDC54007885EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA5A9D5E191EDC54007885EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA5A9D60191EDC54007885EF /* S3BucketBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "S3BucketBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		AA5A9D61191EDC54007885EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA5A9D62191EDC54007885EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA5A9D65191EDC54007885EF /* S3BucketBrowser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = S3BucketBrowser.xcdatamodel; sourceTree = "<group>"; };
+		AA5A9D67191EDC54007885EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA5A9D6D191EDC54007885EF /* S3BucketBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = S3BucketBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5A9D6E191EDC55007885EF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AA5A9D77191EDC55007885EF /* S3BucketBrowserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "S3BucketBrowserTests-Info.plist"; sourceTree = "<group>"; };
+		AA5A9D79191EDC55007885EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA5A9D7B191EDC55007885EF /* S3BucketBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = S3BucketBrowserTests.m; sourceTree = "<group>"; };
+		AA5A9D85191EDD39007885EF /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		AA5A9D87191EE05D007885EF /* BucketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BucketViewController.h; sourceTree = "<group>"; };
+		AA5A9D88191EE05D007885EF /* BucketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BucketViewController.m; sourceTree = "<group>"; };
+		AA5A9D8A191EF4FA007885EF /* AFAmazonS3Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFAmazonS3Manager.h; path = AFAmazonS3Client/AFAmazonS3Client/AFAmazonS3Manager.h; sourceTree = SOURCE_ROOT; };
+		AA5A9D8B191EF4FA007885EF /* AFAmazonS3Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFAmazonS3Manager.m; path = AFAmazonS3Client/AFAmazonS3Client/AFAmazonS3Manager.m; sourceTree = SOURCE_ROOT; };
+		AA5A9D8C191EF4FA007885EF /* AFAmazonS3RequestSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFAmazonS3RequestSerializer.h; path = AFAmazonS3Client/AFAmazonS3Client/AFAmazonS3RequestSerializer.h; sourceTree = SOURCE_ROOT; };
+		AA5A9D8D191EF4FA007885EF /* AFAmazonS3RequestSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFAmazonS3RequestSerializer.m; path = AFAmazonS3Client/AFAmazonS3Client/AFAmazonS3RequestSerializer.m; sourceTree = SOURCE_ROOT; };
+		AA5A9D90191F1FFB007885EF /* BucketObjectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BucketObjectTableViewController.h; sourceTree = "<group>"; };
+		AA5A9D91191F1FFB007885EF /* BucketObjectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BucketObjectTableViewController.m; sourceTree = "<group>"; };
+		AA5A9D93191F2427007885EF /* BucketObjectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BucketObjectTableViewCell.h; sourceTree = "<group>"; };
+		AA5A9D94191F2427007885EF /* BucketObjectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BucketObjectTableViewCell.m; sourceTree = "<group>"; };
+		AA5A9D96191F2F0B007885EF /* BucketConfigurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BucketConfigurationViewController.h; sourceTree = "<group>"; };
+		AA5A9D97191F2F0B007885EF /* BucketConfigurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BucketConfigurationViewController.m; sourceTree = "<group>"; };
+		AA5A9D99191F3184007885EF /* S3Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S3Manager.h; sourceTree = "<group>"; };
+		AA5A9D9A191F3184007885EF /* S3Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S3Manager.m; sourceTree = "<group>"; };
+		AA5A9D9C191F3A56007885EF /* ObjectAttributeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectAttributeViewController.h; sourceTree = "<group>"; };
+		AA5A9D9D191F3A56007885EF /* ObjectAttributeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectAttributeViewController.m; sourceTree = "<group>"; };
+		AA5A9D9F191F4260007885EF /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		AA5A9DA0191F4260007885EF /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		AF6D0A13056A6EB85843877D /* AFOnoResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFOnoResponseSerializer.m; path = AFOnoResponseSerializer/AFOnoResponseSerializer/AFOnoResponseSerializer.m; sourceTree = SOURCE_ROOT; };
+		AF6D0ABA1345DDAF3EC8771A /* AFOnoResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFOnoResponseSerializer.h; path = AFOnoResponseSerializer/AFOnoResponseSerializer/AFOnoResponseSerializer.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA5A9D4A191EDC54007885EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5A9D53191EDC54007885EF /* CoreGraphics.framework in Frameworks */,
+				AA5A9D57191EDC54007885EF /* CoreData.framework in Frameworks */,
+				AA5A9D55191EDC54007885EF /* UIKit.framework in Frameworks */,
+				AA5A9D51191EDC54007885EF /* Foundation.framework in Frameworks */,
+				ACD6BA2848BF44758C2D5789 /* libPods-S3BucketBrowser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5A9D6A191EDC54007885EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5A9D6F191EDC55007885EF /* XCTest.framework in Frameworks */,
+				AA5A9D72191EDC55007885EF /* CoreData.framework in Frameworks */,
+				AA5A9D71191EDC55007885EF /* UIKit.framework in Frameworks */,
+				AA5A9D70191EDC55007885EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA5A9D44191EDC54007885EF = {
+			isa = PBXGroup;
+			children = (
+				AA5A9D58191EDC54007885EF /* S3BucketBrowser */,
+				AA5A9D75191EDC55007885EF /* S3BucketBrowserTests */,
+				AA5A9D4F191EDC54007885EF /* Frameworks */,
+				AA5A9D4E191EDC54007885EF /* Products */,
+				68DC05C60B6A4930A5DFC7CA /* Pods-S3BucketBrowser.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		AA5A9D4E191EDC54007885EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA5A9D4D191EDC54007885EF /* S3BucketBrowser.app */,
+				AA5A9D6D191EDC54007885EF /* S3BucketBrowserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA5A9D4F191EDC54007885EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA5A9D50191EDC54007885EF /* Foundation.framework */,
+				AA5A9D52191EDC54007885EF /* CoreGraphics.framework */,
+				AA5A9D54191EDC54007885EF /* UIKit.framework */,
+				AA5A9D56191EDC54007885EF /* CoreData.framework */,
+				AA5A9D6E191EDC55007885EF /* XCTest.framework */,
+				7034C24D1DF44552860F8D18 /* libPods-S3BucketBrowser.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA5A9D58191EDC54007885EF /* S3BucketBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				AF6D0D4225AB181D5B627646 /* AFAmazonS3Client */,
+				AF6D0224AADF333E4429CA2E /* AFOnoResponseSerializer */,
+				AA5A9D61191EDC54007885EF /* AppDelegate.h */,
+				AA5A9D62191EDC54007885EF /* AppDelegate.m */,
+				AA3B2BDB191FE57200B9E2C7 /* Bucket.h */,
+				AA3B2BDC191FE57200B9E2C7 /* Bucket.m */,
+				AA5A9D96191F2F0B007885EF /* BucketConfigurationViewController.h */,
+				AA5A9D97191F2F0B007885EF /* BucketConfigurationViewController.m */,
+				AA3B2BD8191FE57200B9E2C7 /* BucketObject.h */,
+				AA3B2BD9191FE57200B9E2C7 /* BucketObject.m */,
+				AA5A9D93191F2427007885EF /* BucketObjectTableViewCell.h */,
+				AA5A9D94191F2427007885EF /* BucketObjectTableViewCell.m */,
+				AA5A9D90191F1FFB007885EF /* BucketObjectTableViewController.h */,
+				AA5A9D91191F1FFB007885EF /* BucketObjectTableViewController.m */,
+				AA5A9D87191EE05D007885EF /* BucketViewController.h */,
+				AA5A9D88191EE05D007885EF /* BucketViewController.m */,
+				AA3B2BDE191FF99400B9E2C7 /* SortsViewController.h */,
+				AA3B2BDF191FF99400B9E2C7 /* SortsViewController.m */,
+				AA5A9D9F191F4260007885EF /* HelpViewController.h */,
+				AA5A9DA0191F4260007885EF /* HelpViewController.m */,
+				AA5A9D67191EDC54007885EF /* Images.xcassets */,
+				AA5A9D9C191F3A56007885EF /* ObjectAttributeViewController.h */,
+				AA5A9D9D191F3A56007885EF /* ObjectAttributeViewController.m */,
+				AA5A9D64191EDC54007885EF /* S3BucketBrowser.xcdatamodeld */,
+				AA5A9D99191F3184007885EF /* S3Manager.h */,
+				AA5A9D9A191F3184007885EF /* S3Manager.m */,
+				AA3B2BE119202CE200B9E2C7 /* S3ContentTypes.h */,
+				AA3B2BE219202CE200B9E2C7 /* S3ContentTypes.m */,
+				AA5A9D85191EDD39007885EF /* Storyboard.storyboard */,
+				AA5A9D59191EDC54007885EF /* Supporting Files */,
+			);
+			path = S3BucketBrowser;
+			sourceTree = "<group>";
+		};
+		AA5A9D59191EDC54007885EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA5A9D5A191EDC54007885EF /* S3BucketBrowser-Info.plist */,
+				AA5A9D5B191EDC54007885EF /* InfoPlist.strings */,
+				AA5A9D5E191EDC54007885EF /* main.m */,
+				AA5A9D60191EDC54007885EF /* S3BucketBrowser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA5A9D75191EDC55007885EF /* S3BucketBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA5A9D7B191EDC55007885EF /* S3BucketBrowserTests.m */,
+				AA5A9D76191EDC55007885EF /* Supporting Files */,
+			);
+			path = S3BucketBrowserTests;
+			sourceTree = "<group>";
+		};
+		AA5A9D76191EDC55007885EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA5A9D77191EDC55007885EF /* S3BucketBrowserTests-Info.plist */,
+				AA5A9D78191EDC55007885EF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF6D0224AADF333E4429CA2E /* AFOnoResponseSerializer */ = {
+			isa = PBXGroup;
+			children = (
+				AF6D0A13056A6EB85843877D /* AFOnoResponseSerializer.m */,
+				AF6D0ABA1345DDAF3EC8771A /* AFOnoResponseSerializer.h */,
+			);
+			path = AFOnoResponseSerializer;
+			sourceTree = "<group>";
+		};
+		AF6D0D4225AB181D5B627646 /* AFAmazonS3Client */ = {
+			isa = PBXGroup;
+			children = (
+				AA5A9D8A191EF4FA007885EF /* AFAmazonS3Manager.h */,
+				AA5A9D8B191EF4FA007885EF /* AFAmazonS3Manager.m */,
+				AA5A9D8C191EF4FA007885EF /* AFAmazonS3RequestSerializer.h */,
+				AA5A9D8D191EF4FA007885EF /* AFAmazonS3RequestSerializer.m */,
+			);
+			path = AFAmazonS3Client;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA5A9D4C191EDC54007885EF /* S3BucketBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5A9D7F191EDC55007885EF /* Build configuration list for PBXNativeTarget "S3BucketBrowser" */;
+			buildPhases = (
+				12AB2A8DF0424B1BA64D0938 /* Check Pods Manifest.lock */,
+				AA5A9D49191EDC54007885EF /* Sources */,
+				AA5A9D4A191EDC54007885EF /* Frameworks */,
+				AA5A9D4B191EDC54007885EF /* Resources */,
+				1B29B0C7FF1440B8A836BDF9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = S3BucketBrowser;
+			productName = S3BucketBrowser;
+			productReference = AA5A9D4D191EDC54007885EF /* S3BucketBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA5A9D6C191EDC54007885EF /* S3BucketBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5A9D82191EDC55007885EF /* Build configuration list for PBXNativeTarget "S3BucketBrowserTests" */;
+			buildPhases = (
+				AA5A9D69191EDC54007885EF /* Sources */,
+				AA5A9D6A191EDC54007885EF /* Frameworks */,
+				AA5A9D6B191EDC54007885EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA5A9D74191EDC55007885EF /* PBXTargetDependency */,
+			);
+			name = S3BucketBrowserTests;
+			productName = S3BucketBrowserTests;
+			productReference = AA5A9D6D191EDC54007885EF /* S3BucketBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA5A9D45191EDC54007885EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Matthew Hayes";
+				TargetAttributes = {
+					AA5A9D6C191EDC54007885EF = {
+						TestTargetID = AA5A9D4C191EDC54007885EF;
+					};
+				};
+			};
+			buildConfigurationList = AA5A9D48191EDC54007885EF /* Build configuration list for PBXProject "S3BucketBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA5A9D44191EDC54007885EF;
+			productRefGroup = AA5A9D4E191EDC54007885EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA5A9D4C191EDC54007885EF /* S3BucketBrowser */,
+				AA5A9D6C191EDC54007885EF /* S3BucketBrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA5A9D4B191EDC54007885EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5A9D5D191EDC54007885EF /* InfoPlist.strings in Resources */,
+				AA5A9D68191EDC54007885EF /* Images.xcassets in Resources */,
+				AA5A9D86191EDD39007885EF /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5A9D6B191EDC54007885EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5A9D7A191EDC55007885EF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12AB2A8DF0424B1BA64D0938 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1B29B0C7FF1440B8A836BDF9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-S3BucketBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA5A9D49191EDC54007885EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5A9D9E191F3A56007885EF /* ObjectAttributeViewController.m in Sources */,
+				AA5A9D9B191F3184007885EF /* S3Manager.m in Sources */,
+				AA3B2BDA191FE57200B9E2C7 /* BucketObject.m in Sources */,
+				AA5A9D92191F1FFB007885EF /* BucketObjectTableViewController.m in Sources */,
+				AA5A9D8E191EF4FA007885EF /* AFAmazonS3Manager.m in Sources */,
+				AA3B2BDD191FE57200B9E2C7 /* Bucket.m in Sources */,
+				AA5A9D63191EDC54007885EF /* AppDelegate.m in Sources */,
+				AA5A9D66191EDC54007885EF /* S3BucketBrowser.xcdatamodeld in Sources */,
+				AA5A9D89191EE05D007885EF /* BucketViewController.m in Sources */,
+				AA5A9D95191F2427007885EF /* BucketObjectTableViewCell.m in Sources */,
+				AA3B2BE0191FF99400B9E2C7 /* SortsViewController.m in Sources */,
+				AA5A9D8F191EF4FA007885EF /* AFAmazonS3RequestSerializer.m in Sources */,
+				AA5A9DA1191F4260007885EF /* HelpViewController.m in Sources */,
+				AA3B2BE319202CE200B9E2C7 /* S3ContentTypes.m in Sources */,
+				AA5A9D98191F2F0B007885EF /* BucketConfigurationViewController.m in Sources */,
+				AA5A9D5F191EDC54007885EF /* main.m in Sources */,
+				AF6D0CFC89327FB0612AB280 /* AFOnoResponseSerializer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5A9D69191EDC54007885EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5A9D7C191EDC55007885EF /* S3BucketBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA5A9D74191EDC55007885EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA5A9D4C191EDC54007885EF /* S3BucketBrowser */;
+			targetProxy = AA5A9D73191EDC55007885EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA5A9D5B191EDC54007885EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5A9D5C191EDC54007885EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA5A9D78191EDC55007885EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5A9D79191EDC55007885EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA5A9D7D191EDC55007885EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA5A9D7E191EDC55007885EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA5A9D80191EDC55007885EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68DC05C60B6A4930A5DFC7CA /* Pods-S3BucketBrowser.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "S3BucketBrowser/S3BucketBrowser-Prefix.pch";
+				INFOPLIST_FILE = "S3BucketBrowser/S3BucketBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/** \"${PROJECT_DIR}/AFURLResponseSerialization\"/** \"${PROJECT_DIR}/AFAmazonS3Client\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA5A9D81191EDC55007885EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68DC05C60B6A4930A5DFC7CA /* Pods-S3BucketBrowser.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "S3BucketBrowser/S3BucketBrowser-Prefix.pch";
+				INFOPLIST_FILE = "S3BucketBrowser/S3BucketBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/** \"${PROJECT_DIR}/AFURLResponseSerialization\"/** \"${PROJECT_DIR}/AFAmazonS3Client\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AA5A9D83191EDC55007885EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/S3BucketBrowser.app/S3BucketBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "S3BucketBrowser/S3BucketBrowser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "S3BucketBrowserTests/S3BucketBrowserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AA5A9D84191EDC55007885EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/S3BucketBrowser.app/S3BucketBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "S3BucketBrowser/S3BucketBrowser-Prefix.pch";
+				INFOPLIST_FILE = "S3BucketBrowserTests/S3BucketBrowserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA5A9D48191EDC54007885EF /* Build configuration list for PBXProject "S3BucketBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5A9D7D191EDC55007885EF /* Debug */,
+				AA5A9D7E191EDC55007885EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5A9D7F191EDC55007885EF /* Build configuration list for PBXNativeTarget "S3BucketBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5A9D80191EDC55007885EF /* Debug */,
+				AA5A9D81191EDC55007885EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5A9D82191EDC55007885EF /* Build configuration list for PBXNativeTarget "S3BucketBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5A9D83191EDC55007885EF /* Debug */,
+				AA5A9D84191EDC55007885EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA5A9D64191EDC54007885EF /* S3BucketBrowser.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA5A9D65191EDC54007885EF /* S3BucketBrowser.xcdatamodel */,
+			);
+			currentVersion = AA5A9D65191EDC54007885EF /* S3BucketBrowser.xcdatamodel */;
+			path = S3BucketBrowser.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA5A9D45191EDC54007885EF /* Project object */;
+}

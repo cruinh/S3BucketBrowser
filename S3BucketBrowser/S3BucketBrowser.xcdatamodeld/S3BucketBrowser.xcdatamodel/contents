@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13C1021" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Bucket" representedClassName="Bucket" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="objects" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="BucketObject" inverseName="bucket" inverseEntity="BucketObject" syncable="YES"/>
+    </entity>
+    <entity name="BucketObject" representedClassName="BucketObject" syncable="YES">
+        <attribute name="eTag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="key" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastModified" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="owner" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="storageClass" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="bucket" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Bucket" inverseName="objects" inverseEntity="Bucket" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Bucket" positionX="-63" positionY="-18" width="128" height="73"/>
+        <element name="BucketObject" positionX="-54" positionY="-9" width="128" height="148"/>
+    </elements>
+</model>
